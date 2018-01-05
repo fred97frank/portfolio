@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #E49F37;
+}
+
+
+
+.text h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    color: #252525;
+    text-align: center;
+    margin-right: 40%;
+    padding-top: 15%;
+}
+
+
+
+.text h3 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #252525;
+    text-align: center;
+    margin-right: 25%;
+    padding-bottom: 29.5%;
+}
+
+.about .content {
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 10%;
+
+}
+
+.about p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    line-height: 220%;
+
+}
+
+.start_page {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background: url(img/orange2.png) bottom center fixed no-repeat;
+    background-size: cover;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+}
+
+
+.about h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.about2 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    z-index: 10;
+    /*background-color: #FBE13F;*/
+    background: url(img/orange3.png) #E49F37 bottom center fixed no-repeat;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-size: cover;
+    margin-top: -2.5%;
+}
+
+.projects h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.projects p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    line-height: 220%;
+    padding-top: 1%;
+}
+
+.contact h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.contact p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    line-height: 220%;
+    padding-top: 1%
+}
+
+.footer h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+
+
+.about {
+    height: 50vh;
+    background-color: #252525;
+}
+
+
+.projects {
+    height: 100vh;
+    background-color: #252525;
+}
+
+
+.contact {
+    height: 40vh;
+    background-color: #202020;
+}
+
+.footer {
+    background-color: #151515;
+    height: 10vh;
+}
+
+
+
+
+
+/* Navigation */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-right: 1%;
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/*
+li a:hover {
+    border-bottom: white solid 3px;
+    padding-bottom: 4px;
+}
+
+
+h2 > a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+h2 > a:hover {
+    color: #000;
+}
+
+h2 > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+h2 > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+/*Highlight borderBehind*/
+
+div.borderbehind a:before {
+    position: absolute;
+    top: 19px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #202020;
+    transform: translateX(-50%) translateY(-50%) scale(0.5);
+    border-radius: 5%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+div.borderbehind a:hover:before {
+    opacity: 1;
+    width: 200%;
+}
+
+div.container {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    padding: 0.2em 0.2em;
+    text-align: center;
+
+}
+
+div.container a {
+    color: #202020;
+    text-decoration: none;
+    font: 1em Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
