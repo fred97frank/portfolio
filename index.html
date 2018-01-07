@@ -5,21 +5,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frederik Frank | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/social.css">
+
 </head>
 
 <body>
     <header>
 
+        <!--------------- NAVIGATION ------------>
+
         <nav>
-            <div class="container borderbehind">
+            <div id="nav" class="container borderbehind">
                 <ul>
 
 
                     <li><a href="#contact">Kontakt</a></li>
                     <li><a href="#projects">Projekter</a></li>
                     <li><a href="#about">Om Mig</a></li>
-                    <li><a href="#start_page">Forside</a></li>
+
 
                 </ul>
             </div>
@@ -39,37 +43,137 @@
     <section id="about" class="about">
         <h1>Om Mig</h1>
         <div class="content">
-            <p>Mit navn er Frederik Frank. Jeg er 20 år gammel og er for nyligt flyttet til Østerbro.<br>Jeg studerer multimediedesign på Københavns Erhvervsakademi (KEA), Lygten 16, 2400 København NV.<br>I min tid på KEA har jeg arbejdet med HTML, CSS og JS og har desuden gjort brug af Adobe Photoshop, Premiere, InDesign og Illustrator.<br> Til dagligt arbejder jeg i Pro XI Management, et af skandinaviens største fodboldagent firmaer, hvor jeg er web- og social media ansvarlig, hvilket er enormt spændende at kunne kombinere sin hobby med sit erhverv.</p>
-        </div>
-    </section>
-
-    <section id="about2" class="about2">
-        <div class="content">
-            <!-- billede -->
+            <p>Mit navn er Frederik Frank. Jeg er 20 år gammel og er for nyligt flyttet til Østerbro.<br>Jeg studerer multimediedesign på Københavns Erhvervsakademi (KEA), Lygten 16, 2400 København NV.<br>I min tid på KEA har jeg arbejdet med HTML, CSS og JS og har desuden gjort brug af Adobe Photoshop, Premiere, InDesign og Illustrator.<br> Til dagligt arbejder jeg i Pro XI Management, et af Skandinaviens største fodboldagent firmaer, hvor jeg er web- og social media ansvarlig, hvilket er enormt spændende at kunne kombinere sin hobby med sit erhverv.</p>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <h1>Projekter</h1>
-        <p>
-            Tema 1<br>
-            <a href="http://frederikfrank.dk/kea/01-web/04-responsive/stilartsite/final/index.html" target="_blank">01.04.04 Stilartsite final</a> <br>Tema 3
-            <br><a href="https://www.youtube.com/watch?v=BvFMr__tD-I" target="_blank">03.01.03 Pilotprojekt (Virksomhedspræsentations video )</a><br>03.02.02: Link til færdig website m synopsis, storyboard og færdig video (CPH DOX projektet )
-            <br> <a href="http://frederikfrank.dk/kea/03-video/03-redesign/finalsite/index.html" target="_blank"> 03.03.02 Gruppeopgave - Redesign af website</a> <br>Tema 2
-            <br><a href="http://frederikfrank.dk/kea/02-animation/02.01.02/karakterdesignogskitser/index.html" target="_blank">02.01.02 Karakterdesign og skitser</a><br>
-            <a href="http://frederikfrank.dk/kea/02-animation/02.01.02/rentegnedekaraktererogscenografi
-/index.html" target="_blank">02.01.03 Rentegnede karakterer og scenografi</a><br>02.03.01 Lydsiden <br><a href="http://frederikfrank.dk/kea/02-animation/02.03.04/animation/index.html" target="_blank">02.03.04 Den færdige fortælling - med dokumentation</a><br><a href="http://kea.jonascisum.dk/kea/02-animation/0204/dokumentationssite/" target="_blank">02.04.03 Link til dokumentationssite - med færdig animation</a><br>Tema 4 <br><a href=" http://frederikfrank.dk/kea/04-ux/republikken/index.html " target="_blank ">04.01.05 Præsentationsdelen af sitet</a><br><a href="http://frederikfrank.dk/kea/04-ux/republikken/doku.html " target="_blank ">04.01.06 Dokumentationsdelen af sitet</a><br> 04.02.03 - Aflevering af dokumentation <br> 04.02.04 - Aflevering af præsentation på site og pitch
-        </p>
+
+        <div class="portfolio-margin">
+
+
+            <!-- 1 portoflio-->
+
+            <ul class="grid">
+
+                <li>
+                    <a href="stilartsite.html">
+              <img src="img/bauhaus_forside.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>Stilartsite</p>
+                  <p class="description">1. semester</p>
+              </div>
+            </a>
+                </li>
+
+                <!-- 2 portoflio-->
+
+                <li>
+                    <a href="virksomhedsvideo.html">
+              <img src="img/glas.png" />
+                <div class="no-text">
+                  <p>Virksomhedsvideo</p>
+                  <p class="description">1. semester</p>
+              </div>
+            </a>
+                </li>
+
+                <!-- 3 portoflio-->
+
+                <li>
+                    <a href="redesign.html">
+              <img src="img/klovnens_bodega3.png" alt="Portfolio item" />
+                <div class="no-text">
+                  <p>Redesign</p>
+                  <p class="description">1. semester</p>
+              </div>
+            </a>
+                </li>
+
+
+                <!-- 4 portoflio-->
+
+                <li>
+                    <a href="animation.html">
+              <img src="img/animation1.png" alt="Portfolio item" />
+                <div class="no-text">
+                  <p>Egen animation</p>
+                  <p class="description">1. semester</p>
+              </div>
+            </a>
+                </li>
+
+                <!-- 5 portoflio-->
+
+                <li>
+                    <a href="sogs.html">
+              <img src="img/s_og_s.png" alt="Portfolio item" />
+                <div class="no-text">
+                  <p>Projekt sex og samfund</p>
+                  <p class="description">1. semester</p>
+              </div>
+            </a>
+                </li>
+
+
+                <!-- 6 portoflio-->
+
+                <li>
+                    <a href="kea_app.html">
+              <img src="img/app_image.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>Øvelsescase - KEA app</p>
+                  <p class="description">1. semester</p>
+              </div>
+            </a>
+                </li>
+
+                <!-- 7 portoflio-->
+
+                <li>
+                    <a href="kundecase.html">
+              <img src="img/reconnect1.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>Kundecase (republikken)</p>
+                  <p class="description">1. semester</p>
+              </div>
+            </a>
+                </li>
+
+                <!-- 8 portoflio-->
+
+                <li>
+                    <a href="hh_privat.html">
+              <img src="img/haunted_house1.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>Haunted house</p>
+                  <p class="description">Privat</p>
+              </div>
+            </a>
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section id="contact " class="contact ">
+
+    <section id="contact" class="contact">
         <h1>Kontakt</h1>
-        <p>frederik.frank97@gmail.com<br>København Ø, 2100<br>+45 29 90 26 70<br>LinkedIn/Facebook/Twitter</p>
+        <p>frederik.frank97@gmail.com<br>København Ø, 2100<br>+45 29 90 26 70</p>
+        <div class="footer-social-icons">
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/frederik.frank.1" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/fred97frank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCFVX55_-83j8sHY4AI1Ga0Q?view_as=subscriber" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/frederik-frank/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
     </section>
 
-    <section id="footer " class="footer ">
-        <p>&copy; 2017 Frederik Frank | Københavns Erhvervsakademi</p>
+    <section id="footer" class="footer ">
+        <p>&copy; 2018 Frederik Frank | Københavns Erhvervsakademi</p>
     </section>
+
 
 </body>
 
